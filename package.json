@@ -1,0 +1,25 @@
+{
+  "name": "jade-react-compiler-loader",
+  "version": "0.1.0",
+  "description": "webpack loader for jade-react-compiler",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "jade",
+    "jade-react-compiler",
+    "webpack"
+  ],
+  "author": "wujunhong",
+  "license": "MIT",
+  "peerDependencies": {
+    "jade-react-compiler": "~0.2.x",
+    "loader-utils": "~0.2.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wujunhong/jade-react-compiler-loader.git"
+  }
+}
