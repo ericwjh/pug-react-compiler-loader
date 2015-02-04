@@ -10,7 +10,7 @@ module.exports = function(source){
   
   var filepath = loaderUtils.getRemainingRequest(this).replace(/^!/, "");
   var query = loaderUtils.parseQuery(this.query);
+  return transform + jade.compileClient(source, {filename: filepath, pretty:true});
   
-  return transform + "module.exports= " + jade.compile(source, {filename: filepath}).toString();
   
 }
