@@ -1,21 +1,22 @@
 {
-  "name": "jade-react-compiler-loader",
-  "version": "0.1.4",
-  "description": "webpack loader for jade-react-compiler",
+  "name": "pug-react-compiler-loader",
+  "version": "0.1.5",
+  "description": "webpack loader for pug-react-compiler",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "react",
+    "pug",
     "jade",
-    "jade-react-compiler",
+    "pug-react-compiler",
     "webpack"
   ],
-  "author": "wujunhong",
+  "author": "ericwjh",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/wujunhong/jade-react-compiler-loader.git"
+    "url": "https://github.com/ericwjh/pug-react-compiler-loader.git"
   }
 }
